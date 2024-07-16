@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header a,
+  header button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  header button {
+    background-color: #dc3545;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-item input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+  
+  .product-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-item p {
+    margin-bottom: 5px;
+  }
+  
+
+  
+
+  #product_form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #product_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #product_form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #product_form input[type="text"],
+  #product_form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #product_form button,
+  #product_form a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  #product_form button {
+    background-color: #28a745;
+  }
+  
+  #product_form a {
+    background-color: #dc3545;
+  }
+  
+  #product_form #dvd-fields,
+  #product_form #book-fields,
+  #product_form #furniture-fields {
+    display: none;
+  }
